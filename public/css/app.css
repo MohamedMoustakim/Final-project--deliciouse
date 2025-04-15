@@ -276,24 +276,23 @@ nav {
 }
 
 /* sectione7 */
-.imagess{
+
+
+.image{
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    
-    gap: 2px;
-    width: 350px;
-    
-}
-/* .inmge{
-    display: flex;
-    align-items: center;
     justify-content: center;
-    
+    flex-wrap: wrap;
     gap: 3px;
-} */
-
-
+    padding: 20px 15px;
+    /* padding-left: 60px;
+    padding-top: 20px; */
+}
+.image img{
+    width: 20vw;
+}
+.image img:hover{
+    width: 22vw;
+}
 
 
 
@@ -315,13 +314,4 @@ nav {
 
         color: #333;
     }
-}
-.image{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3px;
-    padding:15px;
-}
-.image img{
-    width: 22%;
 }
