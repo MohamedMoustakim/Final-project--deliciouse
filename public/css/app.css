@@ -1,0 +1,170 @@
+/* navbar */
+.topBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 90px;
+    background: #222;
+}
+
+.notice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.notice i {
+    color: yellow
+}
+
+.notice p {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav {
+    background: #000;
+}
+.navbar-brand{
+    font-family: cursive;
+    /* cursor: pointer; */
+    font-size: 30px;
+    margin: 0;
+    font-weight: 700;
+    color: #fff;
+}
+
+.navigation {
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-link {
+
+    color: #fff
+}
+
+.nav-link:hover {
+
+    color: #ffb03b
+}
+
+/* section1 */
+
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fffaf3;
+    padding: 50px 40px;
+    gap: 20px;
+    margin-top: 50px;
+    
+    
+}
+.Voluptatem{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.Voluptatem h3{
+    color: #433f39;
+    font-family: cursive;  
+}
+.ipsum{
+    padding-right: 110px;
+    font-style: italic !important;
+}
+.starte li{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    
+}
+
+
+/* section2 */
+.chose{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 70px;
+}
+.chose h2{
+    background-color:rgb(252, 217, 190);
+    color: #ffb03b;
+    padding: 10px 10px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+.Restaurant{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-style: italic !important;
+}
+.Our{
+    color: #ffb03b;
+}
+.Ulamco{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 40px;
+}
+.spoonxe{
+    display: flex;
+    gap: 10px;
+}
+.spouila{
+    background-color: #dbdfe3;
+    width: 450px;
+    height: 150px;
+    padding-left: 20px ;
+}
+.spouila span{
+    color: #ffb03b;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+.spouila h4{
+    color: #433f39;
+    font-style: italic !important;
+}
+.spouila p{
+    font-weight: 5px;
+    color: #a6a9ad;
+}
+
+/* section3 */
+
+
+
+
+
+@media (max-width:767px) {
+
+    .notice p {
+
+        display: none;
+    }
+    .navbar-nav {
+
+        background: #fff;
+        padding: 0 20px;
+    }
+    .nav-link{
+
+        color: #333;
+    }
+}
